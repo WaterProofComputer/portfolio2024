@@ -1,0 +1,79 @@
+.div-50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-container {
+    width: 100%;
+    background-color: #0F172A;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: row;
+}
+.header-otsikko {
+    color: white;
+    font-size: 56px;
+}
+.icon-container {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+}
+.button-container {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    
+}
+.omakuva {
+    border-radius: 50px;
+    box-shadow: 10px 10px #00000063;
+}
+.header-text-box {
+    width: 80%;
+    text-align: left;
+}
+.icons {
+    font-size: 46px;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.icons:hover {
+    color: #cfcfcf;
+    cursor: pointer;
+}
+.header-otsikko-box {
+    width: 80%;
+}
+.header-text {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+.contact-button {
+    width: auto;
+    height: 45px;
+    font-size: 30px;
+    background-color: #7477FF;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px #46489c73;
+}
+.contact-button:hover {
+    background-color: #696bdf;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
