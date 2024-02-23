@@ -13,7 +13,6 @@ function Header() {
 
     return (
         <div className="App">
-            <body>
             <div className={`navbar ${isMobileMenuOpen ? 'active' : ''}`}>
             <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <div className='rightnavbar'>
@@ -57,7 +56,6 @@ function Header() {
                     <img src='omakuva.jpg' className='omakuva'></img>
                 </div>
             </div>
-            </body>
         </div>
     );
 }

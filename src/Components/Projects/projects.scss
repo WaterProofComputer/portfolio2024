@@ -1,0 +1,22 @@
+.projects-container {
+    width: 100%;
+    background-color: #1E293B;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projects-otsikko {
+    color: white;
+    font-size: 56px;
+    text-align: left;
+    width: 100%;
+}
+.projects-otsikko-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

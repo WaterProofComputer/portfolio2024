@@ -1,9 +1,52 @@
 .work-container {
     width: 100%;
     background-color: #0F172A;
-    height: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.work-box {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+.work-50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-otsikko {
+    color: white;
+    font-size: 56px;
+    text-align: left;
+    width: 100%;
+}
+.work-otsikko2 {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+}
+.work-text {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+.work-80 {
+    width: 80%;
+    margin-top: 40px;
+}
+.work-otsikko-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
