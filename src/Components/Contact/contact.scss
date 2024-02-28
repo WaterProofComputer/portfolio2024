@@ -1,0 +1,40 @@
+.contact-container {
+    width: 100%;
+    background-color: #0F172A;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+.contact-otsikko {
+    color: white;
+    font-size: 56px;
+    text-align: left;
+    width: 100%;
+}
+.contact-otsikko-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.contact-text {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+.contact-text-container {
+    width: 80%;
+}
+.div-50-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

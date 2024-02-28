@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './Components/Header/header';
 import Skills from './Components/Skills/skills';
 import Work from './Components/Work/work';
 import Projects from './Components/Projects/projects';
+import Contact from './Components/Contact/contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Skills/>
       <Work/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
