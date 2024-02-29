@@ -21,6 +21,7 @@ function Projects() {
             <img src='maalaus.png' className='project-image' alt='Project Image'></img>
             {isHovered1 && (
               <div className='project-description'>
+                <h1>Kotkantien Maalaus Ja Tapetointi</h1>
                 <p>Your project description goes here.</p>
               </div>
             )}
@@ -30,9 +31,10 @@ function Projects() {
             onMouseEnter={() => setIsHovered2(true)}
             onMouseLeave={() => setIsHovered2(false)}
           >
-            <img src='maalaus.png' className='project-image' alt='Project Image'></img>
+            <img src='weather.png' className='project-image' alt='Project Image'></img>
             {isHovered2 && (
               <div className='project-description'>
+                <h1>Simple Weather App</h1>
                 <p>Your project description goes here.</p>
               </div>
             )}
@@ -42,9 +44,10 @@ function Projects() {
             onMouseEnter={() => setIsHovered3(true)}
             onMouseLeave={() => setIsHovered3(false)}
           >
-            <img src='maalaus.png' className='project-image' alt='Project Image'></img>
+            <img src='autoheaven.png' className='project-image' alt='Project Image'></img>
             {isHovered3 && (
               <div className='project-description'>
+                <h1>AutoHeaven</h1>
                 <p>Your project description goes here.</p>
               </div>
             )}
