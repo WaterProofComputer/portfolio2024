@@ -2,9 +2,16 @@ import React, { useState } from 'react';
 import './projects.scss';
 
 function Projects() {
-  const [isHovered1, setIsHovered1] = useState(false);
-  const [isHovered2, setIsHovered2] = useState(false);
-  const [isHovered3, setIsHovered3] = useState(false);
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  function changeTransformValue() {
+    setIsHovered(true);
+  }
+
+  function resetTransformValue() {
+    setIsHovered(false);
+  }
 
   return (
     <div className="App">
@@ -13,44 +20,35 @@ function Projects() {
           <h1 className='projects-otsikko'>Projects</h1>
         </div>
         <div className='projects-grid'>
-          <div
-            className='projects-wrapper'
-            onMouseEnter={() => setIsHovered1(true)}
-            onMouseLeave={() => setIsHovered1(false)}
-          >
+        <div
+            className={`projects-wrapper ${isHovered ? 'hovered' : ''}`}
+            onMouseOver={changeTransformValue}
+            onMouseOut={resetTransformValue}>
             <img src='maalaus.png' className='project-image' alt='Project Image'></img>
-            {isHovered1 && (
               <div className='project-description'>
                 <h1>Kotkantien Maalaus Ja Tapetointi</h1>
                 <p>Your project description goes here.</p>
               </div>
-            )}
           </div>
           <div
-            className='projects-wrapper'
-            onMouseEnter={() => setIsHovered2(true)}
-            onMouseLeave={() => setIsHovered2(false)}
-          >
+            className={`projects-wrapper ${isHovered ? 'hovered' : ''}`}
+            onMouseOver={changeTransformValue}
+            onMouseOut={resetTransformValue}>
             <img src='weather.png' className='project-image' alt='Project Image'></img>
-            {isHovered2 && (
               <div className='project-description'>
                 <h1>Simple Weather App</h1>
                 <p>Your project description goes here.</p>
               </div>
-            )}
           </div>
           <div
-            className='projects-wrapper'
-            onMouseEnter={() => setIsHovered3(true)}
-            onMouseLeave={() => setIsHovered3(false)}
-          >
+            className={`projects-wrapper ${isHovered ? 'hovered' : ''}`}
+            onMouseOver={changeTransformValue}
+            onMouseOut={resetTransformValue}>
             <img src='autoheaven.png' className='project-image' alt='Project Image'></img>
-            {isHovered3 && (
               <div className='project-description'>
                 <h1>AutoHeaven</h1>
                 <p>Your project description goes here.</p>
               </div>
-            )}
           </div>
         </div>
       </div>
