@@ -1,0 +1,44 @@
+.footer-container {
+    height: 400px;
+    background-color: #1E293B;
+}
+.footer-categories {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.links {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.link-otsikko {
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+.link-text {
+    font-size: 28px;
+    color: white;
+    padding-top: 10px;
+    width: auto;
+    text-decoration: none;
+}
+.footer-text {
+    font-size: 28px;
+    color: white;
+    padding-top: 10px;
+}
+.footer-icons {
+    font-size: 46px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    align-self: center;
+}
+.footer-icons:hover {
+    color: #cfcfcf;
+    cursor: pointer;
+}

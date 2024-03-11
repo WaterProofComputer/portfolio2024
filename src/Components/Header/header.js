@@ -12,7 +12,7 @@ function Header() {
     };
 
     return (
-        <div className="App">
+        <div id='about' className="App">
             <div className={`navbar ${isMobileMenuOpen ? 'active' : ''}`}>
             <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <div className='rightnavbar'>

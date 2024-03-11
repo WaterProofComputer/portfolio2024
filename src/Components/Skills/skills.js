@@ -18,7 +18,7 @@ function Skills() {
 
 
     return (
-        <div className="App">
+        <div id='skills' className="App">
             <div className='skills-container'>
                 <div className='box-50'>
                     <div className='skills-header-container'>

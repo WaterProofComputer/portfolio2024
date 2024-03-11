@@ -3,7 +3,7 @@ import './work.scss';
 
 function Work() {
   return (
-    <div className="App">
+    <div id='work' className="App">
       <div className='work-container'>
         <div className='work-otsikko-container'><h1 className='work-otsikko'>Work Experience</h1></div>
           <div className='work-box'>

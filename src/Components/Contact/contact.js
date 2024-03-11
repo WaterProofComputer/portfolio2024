@@ -1,6 +1,8 @@
 import './contact.scss';
 import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser"
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Contact() {
   const [loading, setLoading] = useState(false);
@@ -41,12 +43,16 @@ function Contact() {
   };
 
   return (
-    <div className="App">
+    <div id='contact' className="App">
         <div className='contact-container'>
         <div className='contact-otsikko-container'><h1 className='contact-otsikko'>Contact Me</h1></div>
         <div className='div-50-container'>
             <div className='div-50'>
                 <div className='contact-text-container'><p className='contact-text'>You can contact me through my socials or through the contact form on this site.</p></div>
+                <div className='contact-icons-container'>
+                <a href='https://www.linkedin.com/in/viljami-leskel%C3%A4-23432b292/'><FaLinkedin className='contact-icons'/></a>
+                <a href='https://github.com/WaterProofComputer/'><FaGithubSquare className='contact-icons'/></a>
+                </div>
                 <div className='contact-text-container'><p className='contact-text'>Phone: +358442358825</p></div>
                 <div className='contact-text-container'><p className='contact-text'>Gmail: leskelaviljami@gmail.com</p></div>
             </div>
