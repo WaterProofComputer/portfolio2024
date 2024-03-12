@@ -18,11 +18,11 @@ function Header() {
             <div className='rightnavbar'>
             <h1 className='nimi'>Viljami</h1>
             <div className='gap'></div>
-            <li><a className="navbartext" href="#">About</a></li>
-            <li><a className="navbartext" href="#">Skills</a></li>
-            <li><a className="navbartext" href="#">Work</a></li>
-            <li><a className="navbartext" href="#">Projects</a></li>
-            <li><a className="navbartext" href="#">Contact</a></li>
+            <li><a className="navbartext" href="#about">About</a></li>
+            <li><a className="navbartext" href="#skills">Skills</a></li>
+            <li><a className="navbartext" href="#work">Work</a></li>
+            <li><a className="navbartext" href="#projects">Projects</a></li>
+            <li><a className="navbartext" href="#contact">Contact</a></li>
             </div>
             </ul>
             <div className="hamburger-menu" onClick={toggleMobileMenu}>
@@ -36,7 +36,7 @@ function Header() {
                 <div className='header-otsikko-box'>
                     <h1 className='header-otsikko'>
                     HI I'M VILJAMI LESKELÄ</h1>
-                    <h1 className='header-otsikko'>
+                    <h1 className='header-otsikko2'>
                     SOFTWARE DEVELOPER</h1>
                 </div>
                 <div className='header-text-box'>
@@ -45,11 +45,11 @@ function Header() {
                     Welcome to my portfolio!</p>
                 </div>
                 <div className='icon-container'>
-                    <FaLinkedin className='icons'/>
-                    <FaGithubSquare className='icons'/>
+                <a href='https://www.linkedin.com/in/viljami-leskel%C3%A4-23432b292/'><FaLinkedin className='icons'/></a>
+                    <a href='https://github.com/WaterProofComputer/'><FaGithubSquare className='icons'/></a>
                 </div>
                 <div className='button-container'>
-                    <button className='contact-button'>Contact Me!</button>
+                    <a href='#contact' className='contact-button'>Contact Me!</a>
                 </div>
                 </div>
                 <div className='div-50'>

@@ -101,3 +101,8 @@
         margin-top: 20px;
       }
     }
+    @media screen and (max-width: 380px) {
+      .projects-grid {
+        grid-template-columns: repeat(1, 300px);
+      }
+    }

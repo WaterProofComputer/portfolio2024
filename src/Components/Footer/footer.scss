@@ -1,5 +1,5 @@
 .footer-container {
-    height: 400px;
+    height: auto;
     background-color: #1E293B;
 }
 .footer-categories {
@@ -42,3 +42,11 @@
     color: #cfcfcf;
     cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+    .footer-categories {
+        flex-direction: column;
+    }
+    .links {
+        width: 100%;
+    }
+  }

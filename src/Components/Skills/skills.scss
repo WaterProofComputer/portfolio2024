@@ -1,7 +1,7 @@
 .skills-container {
     width: 100%;
     background-color: #1E293B;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,8 @@
     grid-template-columns: repeat(2,45%);
     justify-content: end;
     justify-content: space-around;
+    align-items: center;
+    align-self: center;
 }
 .services-wrapper {
     align-items: center;
@@ -75,6 +77,8 @@
     justify-content: space-evenly;
     padding: 12px;
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .s-icon {
     color: #7477FF;
@@ -82,3 +86,55 @@
     height: 54px;
     width: 54px;
 }
+.services-text{
+    font-size: 25px;
+    color: white;
+}
+@media screen and (max-width: 1270px) {
+    .skills-container {
+        flex-direction: column;
+    }
+    .box-50 {
+        width: 100%;
+    }
+    .skills-header-container {
+        width: 90%;
+    }
+    .skills-text-container {
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    .services-grid {
+        grid-template-columns: repeat(2,35%);
+        grid-gap: 0px;
+    }
+  }
+  @media screen and (max-width: 530px) {
+    .tech-icon {
+        font-size: 30px;
+        width: 35px;
+        height: 35px;
+    }
+    .tech-icon-background {
+        width: 40px;
+        height: 40px;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    .tech-grid {
+        grid-template-columns: repeat(4,40px);
+    }
+    .services-grid {
+        grid-template-columns: repeat(2,30%);
+        
+    }
+    .services-text {
+        font-size: 20px;
+    }
+    .s-icon {
+        font-size: 40px;
+        height: 40px;
+        width: 40px;
+    }
+  }

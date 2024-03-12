@@ -5,7 +5,7 @@ function Work() {
   return (
     <div id='work' className="App">
       <div className='work-container'>
-        <div className='work-otsikko-container'><h1 className='work-otsikko'>Work Experience</h1></div>
+        <div className='work-otsikko-container'><h1 className='work-otsikko'>Work</h1><div className='workgap'></div><h1 className='work-otsikko3'>Experience</h1></div>
           <div className='work-box'>
           <div className='work-50'>
             <div className='work-80'>

@@ -21,6 +21,11 @@
     font-size: 56px;
     text-align: left;
 }
+.header-otsikko2 {
+    color: #7477FF;
+    font-size: 56px;
+    text-align: left;
+}
 .icon-container {
     display: flex;
     margin-top: 20px;
@@ -66,6 +71,9 @@
     border: none;
     color: white;
     box-shadow: 5px 5px #46489c73;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
 .contact-button:hover {
     background-color: #696bdf;
@@ -77,4 +85,49 @@ body {
     scroll-behavior: smooth;
     overflow-y: auto;
     overflow-x: hidden;
-}
+} 
+@media screen and (max-width: 1270px) {
+    .omakuva {
+        width: 500px;
+        height: 500px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .omakuva {
+        width: 400px;
+        height: 400px;
+    }
+  }
+  @media screen and (max-width: 860px) {
+    .header-container {
+        flex-direction: column;
+    }
+    .div-50 {
+        width: 100%;
+    }
+    .header-otsikko-box {
+        width: 90%;
+    }
+    .header-text-box {
+        width: 90%;
+    }
+    .icon-container {
+        width: 90%;
+    }
+    .button-container {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .omakuva {
+        width: 300px;
+        height: 300px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+
+    .header-otsikko {
+        font-size: 35px;
+    }
+  }
