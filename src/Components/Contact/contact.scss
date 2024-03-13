@@ -127,21 +127,24 @@ p {
   }
   @media screen and (max-width: 600px) {
     .contact-otsikko {
-        font-size: 30px;
+        font-size: 25px;
     }
     .contact-otsikko1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .contact-text {
         font-size: 20px;
     }
     .form-otsikko {
-        font-size: 30px;
-    }
-    .form-text {
         font-size: 25px;
     }
-    .form-placeholder-text {
+    .form-text {
         font-size: 20px;
+    }
+    .form-placeholder-text {
+        font-size: 15px;
+    }
+    .contactbutton {
+        font-size: 25px;
     }
   }
