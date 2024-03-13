@@ -45,9 +45,10 @@ function Contact() {
   return (
     <div id='contact' className="App">
         <div className='contact-container'>
-        <div className='contact-otsikko-container'><h1 className='contact-otsikko'>Contact</h1><div className='contactgap'></div><h1 className='contact-otsikko1'>Me</h1></div>
+        
         <div className='div-50-container'>
             <div className='div-50'>
+            <div className='contact-otsikko-container'><h1 className='contact-otsikko'>Contact</h1><div className='contactgap'></div><h1 className='contact-otsikko1'>Me</h1></div>
                 <div className='contact-text-container'><p className='contact-text'>You can contact me through my socials or through the contact form on this site.</p></div>
                 <div className='contact-icons-container'>
                 <a href='https://www.linkedin.com/in/viljami-leskel%C3%A4-23432b292/'><FaLinkedin className='contact-icons'/></a>

@@ -28,11 +28,11 @@ function Projects() {
             <img src='maalaus.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
                 <h1>Kotkantien Maalaus Ja Tapetointi</h1>
-                <p className='projects-text'>Your project description goes here.</p>
+                <p className='projects-text'>Dummy painting and wallpapering website.</p>
               </div>
           </div>
           </a>
-          <a href='https://geronimo.okol.org/~lesvil/maalaus/'>
+          <a href='https://weather-app-wine-eight-71.vercel.app/'>
           <div
             className={`projects-wrapper ${isHovered ? 'hovered' : ''}`}
             onMouseOver={changeTransformValue}
@@ -40,11 +40,11 @@ function Projects() {
             <img src='weather.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
                 <h1>Simple Weather App</h1>
-                <p className='projects-text'>Your project description goes here.</p>
+                <p className='projects-text'>Simple weather application made in react with an api from openweathermap.org.</p>
               </div>
           </div>
           </a>
-          <a href='https://geronimo.okol.org/~lesvil/maalaus/'>
+          <a href='https://autoheaven-nettisivu.vercel.app/'>
           <div
             className={`projects-wrapper ${isHovered ? 'hovered' : ''}`}
             onMouseOver={changeTransformValue}
@@ -52,7 +52,7 @@ function Projects() {
             <img src='autoheaven.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
                 <h1>AutoHeaven</h1>
-                <p className='projects-text'>Your project description goes here.</p>
+                <p className='projects-text'>Dummy car wash website made in react.</p>
               </div>
           </div>
           </a>
