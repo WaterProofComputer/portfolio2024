@@ -15,7 +15,9 @@
     width: 100%;
 }
 .projects-text {
-  font-size: 30px
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 .projects-otsikko-container {
     width: 90%;
@@ -104,5 +106,16 @@
     @media screen and (max-width: 380px) {
       .projects-grid {
         grid-template-columns: repeat(1, 300px);
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .projects-otsikko {
+          font-size: 30px;
+      }
+      .projects-text {
+          font-size: 20px;
+      }
+      .contact-button {
+          font-size: 25px;
       }
     }
