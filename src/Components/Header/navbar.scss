@@ -110,13 +110,7 @@ h1 {
     .nimi {
         display: none;
     }
-    .header-links-container {
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
+
 }
 @media screen and (max-width: 1000px) {
     .nav-links {
@@ -133,5 +127,12 @@ h1 {
     }
     .nimi {
         display: none;
+    }
+    .header-links-container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 }
