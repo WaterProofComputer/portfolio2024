@@ -27,7 +27,7 @@ function Projects() {
             onMouseOut={resetTransformValue}>
             <img src='maalaus.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
-                <h1 className='projects-otsikko'>Kotkantien Maalaus Ja Tapetointi</h1>
+                <h1 className='projects-otsikko1'>Kotkantien Maalaus Ja Tapetointi</h1>
                 <p className='projects-text'>Dummy painting and wallpapering website.</p>
               </div>
           </div>
@@ -39,7 +39,7 @@ function Projects() {
             onMouseOut={resetTransformValue}>
             <img src='weather.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
-                <h1 className='projects-otsikko'>Simple Weather App</h1>
+                <h1 className='projects-otsikko1'>Simple Weather App</h1>
                 <p className='projects-text'>Simple weather application made in react with an api from openweathermap.org.</p>
               </div>
           </div>
@@ -51,7 +51,7 @@ function Projects() {
             onMouseOut={resetTransformValue}>
             <img src='autoheaven.png' className='project-image' alt='Project Image'></img>
               <div className='project-description'>
-                <h1 className='projects-otsikko'>AutoHeaven</h1>
+                <h1 className='projects-otsikko1'>AutoHeaven</h1>
                 <p className='projects-text'>Dummy car wash website made in react.</p>
               </div>
           </div>

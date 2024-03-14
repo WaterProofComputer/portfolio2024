@@ -14,6 +14,20 @@
 .nimi {
     font-size: 25px;
     color: white;
+    text-align: center;
+}
+.nimi-container {
+    display: flex;
+    text-align: center;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.header-links-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 .nav-links {
     list-style: none;
@@ -81,6 +95,30 @@ h1 {
     margin: 0;
 }
 @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+    .rightnavbar {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #0F172A;
+    }
+    .nimi {
+        display: none;
+    }
+    .header-links-container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1000px) {
     .nav-links {
       display: none;
     }

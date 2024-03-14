@@ -16,13 +16,17 @@ function Header() {
             <div className={`navbar ${isMobileMenuOpen ? 'active' : ''}`}>
             <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <div className='rightnavbar'>
+            <div className='nimi-container'>
             <h1 className='nimi'>Viljami</h1>
+            </div>
             <div className='gap'></div>
+            <div className='header-links-container'>
             <li><a className="navbartext" href="#about">About</a></li>
             <li><a className="navbartext" href="#skills">Skills</a></li>
             <li><a className="navbartext" href="#work">Work</a></li>
             <li><a className="navbartext" href="#projects">Projects</a></li>
             <li><a className="navbartext" href="#contact">Contact</a></li>
+            </div>
             </div>
             </ul>
             <div className="hamburger-menu" onClick={toggleMobileMenu}>
