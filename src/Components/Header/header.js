@@ -3,7 +3,7 @@ import './header.scss';
 import './navbar.scss';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
-import { RiBookReadLine } from "react-icons/ri";
+import { FaAddressBook } from "react-icons/fa";
 
 function Header() { 
 
@@ -52,7 +52,7 @@ function Header() {
                 <div className='icon-container'>
                 <a href='https://www.linkedin.com/in/viljami-leskel%C3%A4-23432b292/'><FaLinkedin className='icons'/></a>
                 <a href='https://github.com/WaterProofComputer/'><FaGithubSquare className='icons'/></a>
-                <a href='ViljamiLeskeläCV.pdf ' download='ViljamiLeskeläCV.pdf'><RiBookReadLine className='icons' /></a>
+                <a href='ViljamiLeskeläCV.pdf ' download='ViljamiLeskeläCV.pdf'><FaAddressBook className='icons' /></a>
                 </div>
                 <div className='button-container'>
                     <a href='#contact' className='contact-button'>Contact Me!</a>
