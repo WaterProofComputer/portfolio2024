@@ -10,7 +10,7 @@ function Work() {
           <div className='work-50'>
             <div className='work-80'>
             <h1 className='work-otsikko2'>Oulun Rakennusteho Oy</h1>
-            <h1 className='work-otsikko2'>2021, 2022, 2023</h1>
+            <h1 className='work-otsikko2'>2021, 2022, 2023, 2024</h1>
             <p className='work-text'>I worked as a construction assistant at
             Oulun Rakennusteho during the summers.
             My responsibilities included sorting 
