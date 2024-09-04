@@ -25,7 +25,7 @@ function Skills() {
                     <h1 className='skills-header-text'>Skills</h1>
                     </div>
                     <div className='skills-text-container'>
-                    <p className='skill-text'>I am a second-year student studying
+                    <p className='skill-text'>I am a third-year student studying
                     Information and Communication Technology
                     at OSAO. I am an enthusiastic and motivated
                     software developer, with a solid foundation in 
