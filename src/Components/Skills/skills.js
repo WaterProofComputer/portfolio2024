@@ -25,10 +25,9 @@ function Skills() {
                     <h1 className='skills-header-text'>Skills</h1>
                     </div>
                     <div className='skills-text-container'>
-                    <p className='skill-text'>I am a third-year student studying
-                    Information and Communication Technology
-                    at OSAO. I am an enthusiastic and motivated
-                    software developer, with a solid foundation in 
+                    <p className='skill-text'>I am a motivated software developer
+                    with an education in Information and Communication Technology
+                    at OSAO, with a solid foundation in 
                     programming languages such as HTML, CSS, 
                     JavaScript, PHP, MySQL, Python, and C#. I have
                     experience in making websites with React.</p>

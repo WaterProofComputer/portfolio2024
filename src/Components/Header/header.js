@@ -56,6 +56,7 @@ function Header() {
                 </div>
                 <div className='button-container'>
                     <a href='#contact' className='contact-button'>Contact Me!</a>
+                    <a href='ViljamiLeskeläCV.pdf ' download='ViljamiLeskeläCV.pdf' className='CV-button'>Download CV</a>
                 </div>
                 </div>
                 <div className='div-50'>
