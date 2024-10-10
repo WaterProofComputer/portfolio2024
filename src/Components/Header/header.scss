@@ -116,6 +116,14 @@ body {
         height: 400px;
     }
   }
+  @media screen and (max-width: 980px) {
+    .contact-button {
+        font-size: 25px;
+    }
+    .CV-button {
+        font-size: 25px;
+    }
+  }
   @media screen and (max-width: 860px) {
     .header-container {
         flex-direction: column;
